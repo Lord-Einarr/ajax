@@ -247,42 +247,57 @@ $countries = [
 ];
 
 $regions = [
-'NZ' => [
-['name' => 'Northland', 'code' => 'NZ-NTL'],
-['name' => 'Auckland', 'code' => 'NZ-AUK'],
-['name' => 'Waikato', 'code' => 'NZ-WKO'],
-['name' => 'Bay of Plenty', 'code' => 'NZ-BOP'],
-['name' => 'Gisborne', 'code' => 'NZ-GIS'],
-['name' => 'Hawke\'s Bay', 'code' => 'NZ-HKB'],
-['name' => 'Taranaki', 'code' => 'NZ-TKI'],
-['name' => 'Manawatu-Wanganui', 'code' => 'NZ-MWT'],
-['name' => 'Wellington', 'code' => 'NZ-WGN'],
-['name' => 'Tasman', 'code' => 'NZ-TAS'],
-['name' => 'Nelson', 'code' => 'NZ-NSN'],
-['name' => 'Marlborough', 'code' => 'NZ-MBH'],
-['name' => 'West Coast', 'code' => 'NZ-WTC'],
-['name' => 'Canterbury', 'code' => 'NZ-CAN'],
-['name' => 'Otago', 'code' => 'NZ-OTA'],
-['name' => 'Southland', 'code' => 'NZ-STL']
-],
-'AU' => [
-['name' => 'Australian Capital Territory', 'code' => 'AU-ACT'],
-['name' => 'New South Wales', 'code' => 'AU-NSW'],
-['name' => 'Northern Territory', 'code' => 'AU-NT'],
-['name' => 'Queensland', 'code' => 'AU-QLD'],
-['name' => 'South Australia', 'code' => 'AU-SA'],
-['name' => 'Tasmania', 'code' => 'AU-TAS'],
-['name' => 'Victoria', 'code' => 'AU-VIC'],
-['name' => 'Western Australia', 'code' => 'AU-WA']
-],
-'US' => [
-['name' => 'Australian Capital Territory', 'code' => 'AU-ACT'],
-['name' => 'New South Wales', 'code' => 'AU-NSW'],
-['name' => 'Northern Territory', 'code' => 'AU-NT'],
-['name' => 'Queensland', 'code' => 'AU-QLD'],
-['name' => 'South Australia', 'code' => 'AU-SA'],
-['name' => 'Tasmania', 'code' => 'AU-TAS'],
-['name' => 'Victoria', 'code' => 'AU-VIC'],
-['name' => 'Western Australia', 'code' => 'AU-WA']
-]
+	'NZ' => [
+		['name' => 'Northland', 'code' => 'NZ-NTL'],
+		['name' => 'Auckland', 'code' => 'NZ-AUK'],
+		['name' => 'Waikato', 'code' => 'NZ-WKO'],
+		['name' => 'Bay of Plenty', 'code' => 'NZ-BOP'],
+		['name' => 'Gisborne', 'code' => 'NZ-GIS'],
+		['name' => 'Hawke\'s Bay', 'code' => 'NZ-HKB'],
+		['name' => 'Taranaki', 'code' => 'NZ-TKI'],
+		['name' => 'Manawatu-Wanganui', 'code' => 'NZ-MWT'],
+		['name' => 'Wellington', 'code' => 'NZ-WGN'],
+		['name' => 'Tasman', 'code' => 'NZ-TAS'],
+		['name' => 'Nelson', 'code' => 'NZ-NSN'],
+		['name' => 'Marlborough', 'code' => 'NZ-MBH'],
+		['name' => 'West Coast', 'code' => 'NZ-WTC'],
+		['name' => 'Canterbury', 'code' => 'NZ-CAN'],
+		['name' => 'Otago', 'code' => 'NZ-OTA'],
+		['name' => 'Southland', 'code' => 'NZ-STL']
+	],
+
+	'AU' => [
+		['name' => 'Australian Capital Territory', 'code' => 'AU-ACT'],
+		['name' => 'New South Wales', 'code' => 'AU-NSW'],
+		['name' => 'Northern Territory', 'code' => 'AU-NT'],
+		['name' => 'Queensland', 'code' => 'AU-QLD'],
+		['name' => 'South Australia', 'code' => 'AU-SA'],
+		['name' => 'Tasmania', 'code' => 'AU-TAS'],
+		['name' => 'Victoria', 'code' => 'AU-VIC'],
+		['name' => 'Western Australia', 'code' => 'AU-WA']
+	],
+
+	'US' => [
+		['name' => 'Australian Capital Territory', 'code' => 'AU-ACT'],
+		['name' => 'New South Wales', 'code' => 'AU-NSW'],
+		['name' => 'Northern Territory', 'code' => 'AU-NT'],
+		['name' => 'Queensland', 'code' => 'AU-QLD'],
+		['name' => 'South Australia', 'code' => 'AU-SA'],
+		['name' => 'Tasmania', 'code' => 'AU-TAS'],
+		['name' => 'Victoria', 'code' => 'AU-VIC'],
+		['name' => 'Western Australia', 'code' => 'AU-WA']
+	],
+
+	'GB' => [
+		['name' => 'South East', 'code' => 'GB-SE'],
+		['name' => 'London', 'code' => 'GB-LN'],
+		['name' => 'North West', 'code' => 'GB-NW'],
+		['name' => 'East of England', 'code' => 'GB-EE'],
+		['name' => 'West Midlands', 'code' => 'GB-WM'],
+		['name' => 'South West', 'code' => 'GB-SW'],
+		['name' => 'Yorkshire and the Humber', 'code' => 'GB-YH'],
+		['name' => 'East Midlands', 'code' => 'GB-EM'],
+		['name' => 'North East', 'code' => 'GB-NE'],
+
+	],
 ];
